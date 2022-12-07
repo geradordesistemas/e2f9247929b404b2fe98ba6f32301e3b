@@ -1,0 +1,94 @@
+{% extends "@ApplicationProjectContent/base/base_web.html.twig" %}
+
+{% block title %}
+    list
+{% endblock %}
+
+{% block stylesheets %}
+    {{ parent() }}
+
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+
+{% endblock %}
+
+{% block javascriptsFooter %}
+    {{ parent() }}
+
+{% endblock %}
+
+
+{% block body %}
+    <div class="container" style="margin-top: 5%">
+        <div class="row">
+
+            <div class=col-4>
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Módulo Prova</h5>
+                        <p class="card-text">...</p>
+                        <a href="{{ path("web_prova_list") }}" class="btn btn-primary">Ir para</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class=col-4>
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Módulo TipoProva</h5>
+                        <p class="card-text">...</p>
+                        <a href="{{ path("web_tipoProva_list") }}" class="btn btn-primary">Ir para</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class=col-4>
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Módulo Disciplina</h5>
+                        <p class="card-text">...</p>
+                        <a href="{{ path("web_disciplina_list") }}" class="btn btn-primary">Ir para</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class=col-4>
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Módulo Professor</h5>
+                        <p class="card-text">...</p>
+                        <a href="{{ path("web_professor_list") }}" class="btn btn-primary">Ir para</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class=col-4>
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Módulo GradeCurricular</h5>
+                        <p class="card-text">...</p>
+                        <a href="{{ path("web_gradeCurricular_list") }}" class="btn btn-primary">Ir para</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class=col-4>
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Módulo Curso</h5>
+                        <p class="card-text">...</p>
+                        <a href="{{ path("web_curso_list") }}" class="btn btn-primary">Ir para</a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+{% endblock %}
+
+
+
+
